@@ -72,16 +72,17 @@ main {
 
 .titulo-categoria{
     margin-top: 2%;
+    margin-bottom: 0;
 }
 
 .img-categorias img {
     border: 4px solid transparent;
+    transition-duration: 300ms;
 
 }
 
 .img-categorias img:hover {
     transform: scale(1.1);
-    transition-duration: 100ms;
     position: relative;
     z-index: 5;
     border: 4px solid whitesmoke;
