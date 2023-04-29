@@ -124,6 +124,15 @@ li{
     color: #D9D9D9;
 }
 
+.boton-enviar:active{
+    background-color: #59C788 !important;
+    border: 1px solid #D9D9D9 !important;
+}
+
+
+.boton-enviar:hover{
+    color: #59C788 !important;
+}
 
 @media screen and (min-width:776px){
     .precios-suscripcion{
