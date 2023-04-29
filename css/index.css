@@ -73,6 +73,18 @@
     margin-right: 0 !important;
  }
  
+ @media (max-width: 800px) {
+   
+    .registro {
+        flex-direction: row;
+        margin-right: 0;
+    }
+
+    .registro li {
+        margin-right: 1rem;
+    }
+}
+ 
  
 /*---------------------------------------MAIN ---------------------------------------*/
 

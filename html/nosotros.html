@@ -13,50 +13,80 @@
     <link rel="stylesheet" href="../css/nosotros.css">
 </head>
 <body>
-     <!-- ============================NAVBAR1-REGISTRO======================================= -->
-
-     <ul class="nav justify-content-end navbar-1">
-        <li class="nav-item">
-            <a class="nav-link" href="#">Ingresar</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Registrarse</a>
-        </li>
-    </ul>
-
-    <!--=====================================NAVBAR2-LOGO-Y-BUSQUEDA===============================-->
-
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-2">
-        <div class="container-fluid">
-            <img src="../img/logo.png" alt="" width="60" class="d-inline-block align-text-top">
-            <a class="navbar-brand" href="../index.html">STREAMIX</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon "></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Mi Lista</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Peliculas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Series</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Buscar Peliculas" aria-label="Buscar">
-                    <button class="btn" type="submit">Buscar</button>
-                </form>
+     <!-- ============================MODAL======================================= -->
+  <div id="miModal" class="modal fade modal-md" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Ingresar</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="container d-flex justify-content-center flex-column align-items-center">
+                <div class="mb-3 col-11 centered">
+                    <label for="exampleFormControlInput1" class="form-label">E-Mail</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="nombre@ejemplo.com">
+                </div>
+                <div class="mb-3 col-11 centered">
+                    <label for="exampleFormControlInput1" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <a href="html/error.html"><button type="button"  class="btn btn-primary">Ingresar</button></a>
             </div>
         </div>
-    </nav>
+    </div>
+</div>
+
+
+
+ <!--=====================================NAVBAR===============================-->
+
+ <nav class="navbar navbar-expand-lg navbar-dark navbar-2 sticky-top">
+  <div class="container-fluid">
+      <img src="../img/logo.png" alt="" width="90" class="d-inline-block align-text-top">
+      <a class="navbar-brand" href="#">STREAMIX</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Categorias</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Mi Lista</a>
+              </li>
+          </ul>
+              <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar Peliculas" aria-label="Buscar">
+                  <button class="btn" type="submit">Buscar</button>
+              </form>
+
+              <ul class="navbar-nav me-auto mx-lg-4 mb-2 mb-lg-0 registro">
+                  <li class="nav-item">
+                      <a class="nav-link" data-bs-toggle="modal" data-bs-target="#miModal" href="#">Ingresar</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="html/error.html">Registrarse</a>
+                  </li>
+              </ul>
+          </ul>
+      </div>
+
+  </div>
+</nav>
+
+
+ <!---------------------------------------main --------------------------------------->
+
 <main>
     
     <div class="container-fluid align-text-center">
@@ -73,12 +103,7 @@
                 <div class="row justify-content-center">
                     <img src="../img/nosotros.jpg" class="img-fluid rounded center" alt="imagen de hombre viendo una pelicula en el cine ">
                 </div>
-
           </div>
-          
-       
-
-
     </div>
 
 
@@ -89,20 +114,20 @@
 </main>
     <!---------------------------------------FOOTER --------------------------------------->
 
-    <footer class="container-fluid class-footer">
-        <div class="class-logo"> <img src="../img/logo.png" alt="logo"></div>
-        <div class="class-redes">
-            <img src="../img/whatsapp-logo.png" alt="logo de whatsapp">
-            <img src="../img/instagram-logo.png" alt="logo de instagram">
-            <img src="../img/facebook-logo.png" alt="logo de facebook">
-        </div>
-        <div class="class-acerca">
-            <a href="nosotros.html">Acerca de Nosotros</a>
-        </div>
-        <div class="class-contactanos">
-            <a href="contacto">Contactanos</a>
-        </div>
-    </footer>
+  <footer class="container-fluid class-footer">
+    <div class="class-logo"> <img src="../img/logo.png" alt="logo"></div>
+    <div class="class-redes">
+        <a href="html/error.html"><img class="mx-1" src="../img/whatsapp-logo.png" alt="logo de whatsapp"></a>
+        <a href="html/error.html"><img class="mx-1" src="../img/instagram-logo.png" alt="logo de instagram"></a>
+        <a href="html/error.html"><img class="mx-1" src="../img/facebook-logo.png" alt="logo de facebook"></a>
+    </div>
+    <div class="class-acerca">
+        <a href="acercadenosotros">Acerca de Nosotros</a>
+    </div>
+    <div class="class-contactanos">
+        <a href="contactanos">Contactanos</a>
+    </div>
+</footer>
 
 
 
