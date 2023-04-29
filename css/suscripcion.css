@@ -8,7 +8,7 @@
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto' !important;
 }
 
 /*============================MODAL======================================= */
@@ -42,7 +42,7 @@ body{
 .navbar-2 {
     background-color: #1F1F1F;
     font-weight: 450;
-    font-size: 1.1rem;
+    font-size: 1.1rem !important;
 }
 
 .navbar-brand {
@@ -149,7 +149,7 @@ li{
         width: 50%;
         margin: 0% 3%;
     }
-    input{
+    .input-suscribirse{
         width: 300px !important;
     }
 }
@@ -158,7 +158,7 @@ li{
     .precios-suscripcion{
         width: 60%;
     }
-    input{
+    .input-suscribirse{
         width: 350px !important;
     }
     .div__h2{
