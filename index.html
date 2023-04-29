@@ -17,7 +17,7 @@
 <body>
 
   <!-- ============================MODAL======================================= -->
-  <div id="miModal" class="modal fade modal-sm" tabindex="-1">
+  <div id="miModal" class="modal fade modal-md" tabindex="-1">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-header">
@@ -37,7 +37,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                <button type="button" class="btn btn-primary">Ingresar</button>
+                <a href="html/error.html"><button type="button"  class="btn btn-primary">Ingresar</button></a>
             </div>
         </div>
     </div>
@@ -76,7 +76,7 @@
             
             <ul class="navbar-nav me-auto mx-lg-4 mb-2 mb-lg-0 registro d-flex flex-row">
                 <li class="nav-item me-2">
-                    <a class="nav-link" href="#">Ingresar</a>
+                    <a class="nav-link" data-bs-toggle="modal" data-bs-target="#miModal" href="#">Ingresar</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Registrarse</a>
