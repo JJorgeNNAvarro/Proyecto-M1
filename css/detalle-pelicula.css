@@ -189,7 +189,7 @@ p {
 
 .sinopsis {
     text-align: justify;
-    font-size: 25px;
+    /* font-size: 25px; */
     max-width: 100%;
 }
 
@@ -208,7 +208,7 @@ p {
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     
 .texto h2 {
         font-size: 7vw;  
@@ -219,7 +219,7 @@ p {
     }
 
     .sinopsis {
-        font-size: 3.5vw;
+        /* font-size: 3.5vw; */
         width: 100%;
     }
 
