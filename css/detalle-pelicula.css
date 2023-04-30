@@ -141,6 +141,7 @@ p {
 
 .texto h2 {
     font-size: 60px;
+    font-weight: bold;
 }
 
 .genero, .anio-duracion, .cali-edad {
