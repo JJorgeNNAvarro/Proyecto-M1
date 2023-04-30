@@ -6,6 +6,23 @@
     box-sizing: border-box;
 }
 
+/*============================MODAL======================================= */
+
+.modal-content {
+    border: 2px solid #1C3C2A;
+}
+
+.modal-footer .btn-primary {
+    background-color: #1C3C2A;
+    border-color: #131315;
+}
+
+
+.modal-footer .btn-primary:active {
+    background-color: #59C788;
+    border-color: #131315;
+}
+
 
 /*---------------------------------------NAVBAR ---------------------------------------*/
 
