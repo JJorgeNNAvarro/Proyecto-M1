@@ -110,7 +110,7 @@ background: linear-gradient(90deg, rgba(28,60,42,1) 0%, rgba(63,96,77,1) 100%);
 }
 
  main {
-    min-height: 71.6vh;
+    min-height: 72vh;
 }
 
 main label, #camposRequeridos {
