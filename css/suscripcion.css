@@ -42,7 +42,7 @@ body{
 .navbar-2 {
     background-color: #1F1F1F;
     font-weight: 450;
-    font-size: 1.1rem !important;
+    font-size: 1.5rem;
 }
 
 .navbar-brand {
@@ -90,6 +90,7 @@ body{
         margin-right: 1rem;
     }
 }
+
  
 /*---------------------------------------MAIN ---------------------------------------*/
 
@@ -129,6 +130,8 @@ li{
     background-color: #1C3C2A;
     border: 1px solid #D9D9D9 !important;
     color: #D9D9D9;
+    width: 7rem;
+    font-weight: bold;
 }
 
 .boton-enviar:active{

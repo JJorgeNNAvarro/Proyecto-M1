@@ -20,86 +20,87 @@
 
 <body>
 
-    <!-- ============================MODAL======================================= -->
-    <div id="miModal" class="modal fade modal-md" tabindex="-1">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Ingresar</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+ <!-- ============================MODAL======================================= -->
+ 
+ <div id="miModal" class="modal fade modal-md" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Ingresar</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="container d-flex justify-content-center flex-column align-items-center">
+                <div class="mb-3 col-11 centered">
+                    <label for="exampleFormControlInput1" class="form-label">E-Mail</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="nombre@ejemplo.com">
                 </div>
-                <div class="container d-flex justify-content-center flex-column align-items-center">
-                    <div class="mb-3 col-11 centered">
-                        <label for="exampleFormControlInput1" class="form-label">E-Mail</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="nombre@ejemplo.com">
-                    </div>
-                    <div class="mb-3 col-11 centered">
-                        <label for="exampleFormControlInput1" class="form-label">Contraseña</label>
-                        <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="">
-                    </div>
+                <div class="mb-3 col-11 centered">
+                    <label for="exampleFormControlInput1" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="">
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    <a href="html/error.html"><button type="button" class="btn btn-primary">Ingresar</button></a>
-                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <a href="error.html"><button type="button"  class="btn btn-primary">Ingresar</button></a>
             </div>
         </div>
     </div>
+</div>
 
 
 
-    <!--=====================================NAVBAR===============================-->
+ <!--=====================================NAVBAR===============================-->
 
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-2 sticky-top">
-        <div class="container-fluid">
-            <img src="../img/logo.png" alt="" width="90" class="d-inline-block align-text-top">
-            <a class="navbar-brand" href="#">STREAMIX</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon "></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Categorias</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Mi Lista</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Buscar Peliculas" aria-label="Buscar">
-                    <button class="btn" type="submit">Buscar</button>
-                </form>
+ <nav class="navbar navbar-expand-lg navbar-dark navbar-2 sticky-top">
+  <div class="container-fluid">
+      <img src="../img/logo.png" alt="logo streamix" width="90" class="d-inline-block align-text-top">
+      <a class="navbar-brand" href="../index.html">STREAMIX</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Categorias</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#">Mi Lista</a>
+              </li>
+          </ul>
+              <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar Peliculas" aria-label="Buscar">
+                  <button class="btn" type="submit">Buscar</button>
+              </form>
 
-                <ul class="navbar-nav me-auto mx-lg-4 mb-2 mb-lg-0 registro">
-                    <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#miModal" href="#">Ingresar</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="html/error.html">Registrarse</a>
-                    </li>
-                </ul>
-                </ul>
-            </div>
+              <ul class="navbar-nav me-auto mx-lg-4 mb-2 mb-lg-0 registro">
+                  <li class="nav-item">
+                      <a class="nav-link" data-bs-toggle="modal" data-bs-target="#miModal" href="#">Ingresar</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="error.html">Registrarse</a>
+                  </li>
+              </ul>
+          </ul>
+      </div>
 
-        </div>
-    </nav>
+  </div>
+</nav>
 
     <!---------------------------------------MAIN --------------------------------------->
     <main>
-        <div class="text-center">
+        <div class="text-center pt-4">
             <div class="pt-3">
                 <h1>Elige tu experencia Steaming Max</h1>
                 <p class="pt-2 pb-3">Disfruta series y peliculas de Netflix, HBO, Warner Bros.</p>
             </div>
 
-            <div class="d-flex align-items-center flex-column flex-md-row justify-content-center">
+            <div class="d-flex align-items-center flex-column flex-md-row justify-content-center pt-3">
 
                 <div class="text-center precios-suscripcion">
 
@@ -160,7 +161,7 @@
 
             <!---------------------------------------SUSCRIPCION--------------------------------------->
             <div class="div__h2">
-                <h2 class="mt-2">Suscribite</h2>
+                <h2 class="pt-5">Suscribite</h2>
             </div>
             <form class="m-4">
                 <div class="d-flex align-items-center flex-column justify-content-center div-suscripcion ">
@@ -211,10 +212,10 @@
             <a href="../html/error.html"><img class="mx-1" src="../img/facebook-logo.png" alt="logo de facebook"></a>
         </div>
         <div class="class-acerca">
-            <a href="acercadenosotros">Acerca de Nosotros</a>
+            <a href="nosotros.html">Acerca de Nosotros</a>
         </div>
         <div class="class-contactanos">
-            <a href="contactanos">Contactanos</a>
+            <a href="contacto.html">Contactanos</a>
         </div>
     </footer>
 

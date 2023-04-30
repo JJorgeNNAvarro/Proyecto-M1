@@ -1,9 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+body{
+    font-family: 'Roboto' !important;
+}
 
 /*============================MODAL======================================= */
 
@@ -36,7 +43,7 @@
 .navbar-2 {
     background-color: #1F1F1F;
     font-weight: 450;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 .navbar-brand {
