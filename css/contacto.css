@@ -42,7 +42,7 @@ body {
 .navbar-2 {
     background-color: #1F1F1F;
     font-weight: 450;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 
 .navbar-brand {
@@ -79,6 +79,17 @@ body {
     margin-right: 0 !important;
  }
  
+ @media (max-width: 800px) {
+   
+    .registro {
+        flex-direction: row;
+        margin-right: 0;
+    }
+
+    .registro li {
+        margin-right: 1rem;
+    }
+}
 
 /*---------------------------------------MAIN ---------------------------------------*/
 
