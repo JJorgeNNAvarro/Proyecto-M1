@@ -129,7 +129,7 @@ main {
     /* position: absolute; */
     z-index: 5;
     padding: 1%;
-    padding-bottom: 0;
+    padding-bottom: 1%;
     width: 50%;
     /* height: 70vh; */
     color: #D9D9D9;
