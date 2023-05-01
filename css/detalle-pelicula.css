@@ -106,7 +106,8 @@ main {
     display: flex;
     width: 100%;
     position: relative;
-    min-height: 66vh;  
+    /* min-height: 66vh;   */
+    min-height: 70vh;
 
     
 }
@@ -127,9 +128,10 @@ main {
     justify-content: space-between;
     /* position: absolute; */
     z-index: 5;
-    padding: 2%;
+    padding: 1%;
+    padding-bottom: 0;
     width: 50%;
-    height: 70vh;
+    /* height: 70vh; */
     color: #D9D9D9;
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,0.8463760504201681) 20%, rgba(0,0,0,0.7763480392156863) 40%, rgba(0,0,0,0.7483368347338936) 60%, rgba(0,0,0,0.6979166666666667) 76%, rgba(0,0,0,0.5186449579831933) 89%, rgba(0,0,0,0.32816876750700286) 95%, rgba(0,0,0,0) 100%);
@@ -142,7 +144,7 @@ p {
 }
 
 .texto h2 {
-    font-size: 65px;
+    font-size: 60px;
     font-weight: bold;
 }
 
@@ -189,7 +191,7 @@ p {
 
 .sinopsis {
     text-align: justify;
-    /* font-size: 25px; */
+    font-size: 25px;
     max-width: 100%;
 }
 
@@ -208,7 +210,7 @@ p {
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1000px) {
     
 .texto h2 {
         font-size: 7vw;  
@@ -219,7 +221,7 @@ p {
     }
 
     .sinopsis {
-        /* font-size: 3.5vw; */
+        font-size: 3.5vw;
         width: 100%;
     }
 
