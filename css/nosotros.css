@@ -94,9 +94,6 @@ body{
 }
 
 /*---------------------------------------MAIN ---------------------------------------*/
-body{
-    height: 100%;
-}
 p{
     margin-bottom:0;
     text-align: justify;
@@ -107,7 +104,6 @@ h1{
 main {
     background-color: #131315;
     min-height: 80vh;
-    /* ----------El height creo que es mejor sacarlo  despues de rellenar el main */
 }
 
 /*---------------------------------------FOOTER ---------------------------------------*/
