@@ -166,11 +166,8 @@ main {
 
 .img-categorias img:hover {
     transform: scale(1.1);
-    /* position: relative; */
-    /* z-index: 5; */
     outline-offset: -4px;
     outline: 4px solid whitesmoke;
-    /* margin: 0; */
 }
 
 a {
